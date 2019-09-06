@@ -1,0 +1,26 @@
+body {
+  background-color: #f8f8f0;
+  color: #000;
+  font-family: Arial, "メイリオ", sans-serif;
+}
+
+h1 {
+  color: #000;
+  background-color: #eee;
+  padding: 20px;
+  font-family: 'M PLUS Rounded 1c', "游ゴシック", sans-serif;
+  border-bottom: 5px solid #32a1ce;
+}
+
+h2 {
+  color: #000;
+  padding: 10px, 5px;
+  font-family: "游ゴシック", sans-serif;
+  border-bottom: 3px solid #aa3333;
+}
+
+p {
+  color: #000;
+  font-size: 16px;
+  padding: 4px;
+}
