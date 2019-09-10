@@ -1,20 +1,110 @@
+@charset "UTF-8";
+/* css */
+
+
 body {
-  background-color: #f8f8f0;
+  background-color: #eeeedd;
+  background-image: url(../pic/3line.png);
   color: #000;
   font-family: Arial, "メイリオ", sans-serif;
+  width: auto; margin: 0 30px;
+}
+
+
+div#header {
+  background-color: #33aa44;
+  margin: 0 0 20px 0;
+}
+#header h1 {
+  margin: 0;
+  text-align: center;
+  background-image: url(../pic/BPKlogo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+}
+#header h1 a {
+  text-decoration: none;
+  padding: 1px 10px;
+  color: #111144;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5% / 50%;
+}
+#header h1 a img {
+  width: 64px; height: 64px;
+  margin: 0;
+  float: left;
+  border-radius: 50%;
+  border: 2px solid #ffff44;
+}
+
+ul#menu {
+  width: auto; height: 50px; padding: 0; margin: 0;
+}
+#menu li {
+  list-style-type: none;
+  display: inline;
+  float: left;
+}
+#menu li a {
+  background-color: #44bb55;
+  color: #000;
+  border-right: 1px solid #3399cc;
+  font-size: 16px;
+  display: block;
+  width: auto; height: 20px;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  background-image: url(../pic/fruit_lemon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#menu li a:hover {
+  background-color: #77ee88;
+  color: #fff;
+}
+
+.content {
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 0;
+}
+
+div#footer {
+  background-color: #333;
+  color: #ccc;
+  padding: 16px;
+  margin: 20px 0 0 0;
+}
+
+/* Link */
+ul#link {
+  padding: 10px;
+  margin: 10px;
+}
+#link li {
+  margin: 5px;
+}
+#link li a {
+  padding: 5px;
 }
 
 h1 {
   color: #000;
   background-color: #eee;
   padding: 20px;
+  margin-top: 0;
   font-family: 'M PLUS Rounded 1c', "游ゴシック", sans-serif;
-  border-bottom: 5px solid #32a1ce;
+  border-bottom: 5px solid #3399cc;
 }
 
 h2 {
   color: #000;
-  padding: 10px, 5px;
+  background-color: #eee;
+  padding: 5px 10px;
+  margin-top: 0;
   font-family: "游ゴシック", sans-serif;
   border-bottom: 3px solid #aa3333;
 }
@@ -23,4 +113,10 @@ p {
   color: #000;
   font-size: 16px;
   padding: 4px;
+}
+
+hr {
+  clear: both;
+  border: 0;
+  margin: 0;
 }
